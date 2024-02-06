@@ -22,7 +22,7 @@ export const GifExpertApp = () => {
        * esto lo que hará es una copia de todas las categorias y seguido adicionamos el item(valor) que queremos
        */
       setCategories([newCategory, ...Categories])
-      console.log(newCategory);
+      // console.log(newCategory);
       /*
        * otra manera de hacer el mismo procedimiento mediante un callback donde cat hace referencia a Categories
          setCategories(cat=>[...cat, 'valorant'])

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifItem Evaluar snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="saitama"
+      src="https://one-punch.com/saitama.jpg"
+    />
+    <p>
+      saitama
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// este archivo fue creado para solucionar el problema que se tenia al no recibir sugerencias de metodos de jest despues dehaber instalado el paquete @types/jest
+// https://github.com/jest-community/vscode-jest/issues/440
+
+
+{
+	"typeAcquisition": {
+		"include": ["jest"]
+	}
+}
