@@ -14,7 +14,7 @@ export const useFetchGifs = (category) => {
       setIsLoading(false)
 	}
    /*
- 	 * useEffect es un hook de react que sirve para disparar efectos secundario (algun proceso que se quiere ejecutar cuando algo suceda)
+ 	 * useEffect es un hook de react que sirve para disparar efectos secundarios (algun proceso que se quiere ejecutar cuando algo suceda)
  	 * useEffect hace un callback que en este caso el primer valor ejecutara nuestra funcion getGifs 
 	 * y el segundo valor ejecutará nuestras dependencias las cuales definimos dentro de llaves, si dejamos las dependencias vacias indicamos que este hook solo se ejecutara la primera vez que se crea y se construye mi componente 
 	 */
